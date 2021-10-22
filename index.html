@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS reset  */
+    body {
+        font-family: 'Baloo Bhaina 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg.jpg')no-repeat center center/cover;
+        background-image: no-repeat;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 30px;
+        top: 15px;
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        /* border: 2px solid green; */
+        margin: 10px auto;
+
+    }
+
+    .right {
+        /* border: 2px solid blue; */
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        top: 15px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar a {
+
+        color: white;
+        text-decoration: none;
+        padding: 34px 24px;
+    }
+
+    .navbar li a:hover,
+    navbar li a.active {
+        text-decoration: underline;
+        color: slategray;
+    }
+
+    .left img {
+        display: block;
+        margin: auto;
+        width: 60px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhaina 2', cursive;
+        margin: 0px 10px;
+        padding: 4px 25px;
+        border: 2px solid grey;
+        border-radius: 4px;
+        font-size: 15px;
+        /* text-decoration: none; */
+        color: white;
+        background-color: black;
+        ;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(77, 74, 74);
+        text-decoration: underline;
+        font-size:medium;
+    }
+
+    .container {
+        border: 2px solid white;
+        border-radius: 12px;
+        padding: 50px;
+        margin: 120px 63px;
+        width: 35%;
+        height: 322px;
+
+    }
+
+    .form-grp input {
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 6px;
+        margin: 10px auto;
+        border-radius: 10px;
+        font-family: 'Baloo Bhaina 2', cursive;
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 90%;
+        border-radius: 8px;
+        font-size: 100%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo  -->
+        <div class="left">
+            <img src="img/gym-6585768_1280.png" alt="">
+            <div>Gaurav Fitness</div>
+        </div>
+        <!-- mid box for navbar  -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+
+            </ul>
+        </div>
+        <!-- right box for button  -->
+        <div class="right">
+            <button class="btn">Contact us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>join the best gym of Etawah now</h1>
+        <form action="Not Found">
+            <div class="form-grp">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-grp">
+                <input type="email name="" placeholder="Enter Your Email">
+            </div>
+            <div class="form-grp">
+                <input type="number" name="" placeholder="Enter Your Number">
+            </div>
+            <div class="form-grp">
+                <input type="text" name="" placeholder="Enter Your Address">
+            </div>
+            <button class="btn">
+                submit
+            </button>
+        </form>
+    </div>
+
+</body>
+
+</html>
